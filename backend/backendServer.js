@@ -12,7 +12,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://amanwhoooo:VuKVdMuGEHjQRmOG@cluster0.vygshnz.mongodb.net/keyVault")
+mongoose.connect("mongodb+srv://kumarashmit29:gJd4ELxJmfpRBwUk@cluster14.ziiij.mongodb.net/keyVault")
     .then(() => console.log("Connected to MongoDB"))
     .catch((err) => console.error("Error connecting to MongoDB:", err));
 
